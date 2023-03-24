@@ -1,4 +1,4 @@
-package dsa.stackdemo2;
+package dsa.stackdemo3;
 
 public class Stack {
     private int [] arr;
@@ -29,7 +29,7 @@ public class Stack {
     }
     public int peek(){
         if(tos==-1){
-            throw new  StackException("Stack Underflow");
+            throw new StackException("Stack Underflow");
 
         }
         int x=arr[tos];
